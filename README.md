@@ -39,7 +39,7 @@ Recarrega a página a cada n segundos
 <meta http-equiv="refresh" content="10">
 ```
 
-## Corpo do texto
+## Text
 
 Deixar um conteúdo de texto editável (atributo contenteditable)
 ```html
@@ -47,6 +47,21 @@ Deixar um conteúdo de texto editável (atributo contenteditable)
   <h1>Título</h1>
   <p>Corpo do texto que será editável</p>
 </div>
+```
+
+Exibir e ocultar detalhes de uma informação (details)
+```html
+<details>
+  <summary>Clique para exibir detalhes</summary>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+  </ul>
+</details>
 ```
 
 ## Tabelas
@@ -183,26 +198,32 @@ Mais de um método de envio (Ex: POST e GET)
 
 ## Navegação na página
 
-Ordem de nvegação com a tecla TAB (tabindex)
+Ordem de nvegação com a tecla TAB (Tabindex)
 ```html
 <a href="https://pt.lipsum.com/" tabindex="3" target="_blank">Lorem Ipsum</a>
 <a href="https://www.google.com/" tabindex="1" target="_blank">Google</a>
 <a href="https://fordev.netlify.app/" tabindex="2" target="_blank">For Dev</a>
 ```
 
-
+Definindo tecla de atalho (Accesskey)
+<b>OBS:</b> A combinação de atalho muda de um navegador para outro. Para mais informações clique [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/accesskey).
 ```html
-
+<a href="https://pt.lipsum.com/" tabindex="3" accesskey="l" target="_blank">Lorem Ipsum</a><br>
+<a href="https://www.google.com/" tabindex="1" accesskey="g" target="_blank">Google</a><br>
+<a href="https://fordev.netlify.app/" tabindex="2" accesskey="f" target="_blank">For Dev</a><br>
 ```
 
-
+Incorporar elemento (arquivo pdf, animação em Flash)
 ```html
-
+<object height="450" width="800" data="curso-php.pdf"></object>
 ```
 
-
+Agrupar título (usado apenas para organização interna no código))
 ```html
-
+<hgroup>
+  <h1>Título</h1>
+  <h2>Subtítulo</h2>
+</hgroup>
 ```
 
 
