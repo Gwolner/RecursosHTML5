@@ -2,35 +2,46 @@
 <html lang="pt-br">
 <head>
 	<title>Primeira página</title>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8">
+	<meta name="description" content="A perfeiçoando o HTML 5">
+	<meta name="keywords" content="HTML, CSS, PHP">
+	<meta name="author" content="Guilherme Wolner">
+	<meta http-equiv="refresh" content="200">
 	
 	<style>
+	div{background-color:#ccc; padding: 20px}
+	span{color: white; background-color:#000}
 	.nome{background-color:red}
 	.idade{background-color:blue}
 	.segredo{background-color:yellow}
 	</style>
 </head>
 <body>
-	<h1>Título</h1>
-	<h2>Subtítulo</h2>
+
+	<hgroup>
+		<h1>Título</h1>
+		<h2>Subtítulo</h2>
+	</hgroup>
 	
 	<img src="https://i2.wp.com/codigosimples.net/wp-content/uploads/2014/04/web.png?fit=1024%2C600&ssl=1" 
 	width="400" height="200" title="Combo front-end" alt="HTML 5, CSS 3 e JS">
 	
 	<iframe width="500" hight="400" src="https://github.com/Gwolner"></iframe>
-
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-	when an unknown printer took a galley of type and scrambled it to make a type 
-	specimen book. <br>It has survived not only five centuries, but also the leap into 
-	electronic typesetting, remaining essentially unchanged. It was popularised in 
-	the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-	and more recently with desktop publishing software like Aldus PageMaker 
-	including versions of Lorem Ipsum.</p>
 	
+	<div>
+		<h1>O que é o Lorem Ipsum?</h1>
+		<p>
+		O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a
+		ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres 
+		de um texto para criar um espécime de livro. <br>Este texto não só sobreviveu 5 séculos, mas também o 
+		salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 
+		60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais 
+		recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+		</p>
+	</div>
 	
 	<table border="1px">
-		<caption >Cadastro de Clientes</caption>
+		<caption>Cadastro de Clientes</caption>
 		
 		<colgroup>
 			<col class="nome">
@@ -65,16 +76,21 @@
 		</tfoot>
 	</table>
 	
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-	when an unknown printer took a galley of type and scrambled it to make a type 
-	specimen book. It has survived not only five centuries, but also the leap into 
-	electronic typesetting, remaining essentially unchanged. It was popularised in 
-	the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-	and more recently with desktop publishing software like Aldus PageMaker 
-	including versions of Lorem Ipsum.</p>
+	<div contenteditable>
+		<h1>Porque é que o usamos?</h1>
+		<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa
+		a sua mancha gráfica. Logo, o uso de <span>Lorem Ipsum</span> leva a uma distribuição mais ou menos normal de letras, 
+		ao 	contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de 
+		publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto 
+		usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. 
+		Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no 
+		caso do humor).
+		</p>
+	</div>
 	
-	<a href="https://pt.lipsum.com/" target="_blank">Site do Lorem Ipsum</a>
+	<a href="https://pt.lipsum.com/" tabindex="3" accesskey="l" target="_blank">Lorem Ipsum</a><br>
+	<a href="https://www.google.com/" tabindex="1" accesskey="g" target="_blank">Google</a><br>
+	<a href="https://fordev.netlify.app/" tabindex="2" accesskey="f" target="_blank">For Dev</a><br>
 	
 	<ol type="A">
 		<li>Notebook</li>
@@ -88,5 +104,86 @@
 		</li>
 		<li>Forno</li>
 	</ol>
+	
+	<fieldset>
+		<legend>Prática de formulário</legend>
+		<form action="destino.php" method="POST">
+			Nome:<br>
+			<input type="text" name="nome"><br>
+			Senha:<br>
+			<input type="password" name="senha"><br>
+			Nível:<br>
+			<input type="range" name="quantidade"><br>
+			URL:<br>
+			<input type="url" name="site"><br>
+			Pesquisa:<br>
+			<input type="search" name="pesquisa"><br>
+			Cor:<br>
+			<input type="color" name="cor"><br>
+			Cursos:<br>
+			<input name="cursos" list="lista-cursos">
+			
+			<datalist id="lista-cursos">
+				<option value="HTML 5">
+				<option value="CSS">
+				<option value="PHP">
+			</datalist><br>
+			Carro:<br>
+			<select name="veiculo">
+				<optgroup label="Carro">
+					<option value="ferrari">Ferrari</option>
+					<option value="lamborghini">Lamborghini</option>
+				</optgroup>
+				<optgroup label="Moto">
+					<option value="pop100" selected>Pop 100</option>
+					<option value="zig50">Zig-50</option>
+				</optgroup>
+			</select><br>
+			Mensagem:<br>
+			<textarea name="mensagem" rows="5" cols="20" spellcheck="true"></textarea><br><br>
+			<input type="submit" name="btn-enviar" value="Enviar">
+		</form>
+	</fieldset>
+	
+	<br><br>
+	
+	<fieldset>
+		<legend>Mais prática de formulário</legend>
+			<form id="form-cadastro">
+				Email:<br>
+				<input type="email" name="email" required autocomplete="on">
+				<input type="submit" name="btn-cadastrar" formmethod="GET" formaction="cadastrar.php" value="Cadastrar">
+				<input type="submit" name="btn-enviar-email" formmethod="POST" formaction="enviar-email.php" value="Enviar por email">
+			</form>
+			
+			<input type="text" name="usuario" form="form-cadastro" required>
+			
+	</fieldset>
+	
+	<br><br>
+	
+	<details>
+		<summary>Clique para exibir detalhes</summary>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+		</ul>
+	</details>
+	
+	<br>
+	
+	<object height="450" width="800" data="curso-php.pdf"></object>
+	
+	<br><br>
+	
+	<meter min="0" low="3" optimum="6" hight="8" max="10" value="7"></meter><br>
+	
+	<progress max="100" value="30"></progress><br>
+	
+	
 </body>
 </html>
