@@ -233,34 +233,41 @@ Definindo barra para representar gráfico (valores mínimo, máximo, baixo, alto
 <meter min="0" low="3" optimum="6" hight="8" max="10" value="7">
 ```
 
-
+Barra para representar progresso/download 
 ```html
+<progress max="100" value="30"></progress><br>
+```
 
+# Falta de suporte ao JS
+
+Aviso de que o JS não está habilitado ou não é compatível com o navegador
+```html
+<noscript>Seu navegador não está habilitado para usar Javascript!</noscript>
 ```
 
 
-```html
+# Recursos externos (dentro do Head e não do Body)
 
+Adicionar icone na aba da página
+```html
+<link rel="icon" href="icone_aba.PNG"/>
 ```
 
-
-
+Adicionar folha de estilo (CSS)
 ```html
-
+<link rel="stylesheet" href="style.css"/>
 ```
 
+# Marcação de tempo
 
+Usado para mecanismos de buscas, não para auxílio visual 
 ```html
-
+<time datetime="2020-05-05 18:05">05 de Maio de 2020</time>
 ```
 
+# Criação de menu
 
-```html
-
-```
-
-
-
+Adiciona itens ao menu que surge com botão direito do mouse
 ```html
 
 ```
