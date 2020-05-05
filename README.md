@@ -226,6 +226,40 @@ Agrupar título (usado apenas para organização interna no código))
 </hgroup>
 ```
 
+# Gráficos
+
+Definindo barra para representar gráfico (valores mínimo, máximo, baixo, alto e ótimo)
+```html
+<meter min="0" low="3" optimum="6" hight="8" max="10" value="7">
+```
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
 
 ```html
 
@@ -248,9 +282,20 @@ Agrupar título (usado apenas para organização interna no código))
 ```
 
 
+```html
+
+```
+
+
+```html
+
+```
 
 
 
+```html
+
+```
 
 
 
