@@ -267,6 +267,8 @@ Usado para mecanismos de buscas, não para auxílio visual
 
 # Criação de menu
 
+Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefox tem suporte ao menu de contexto.
+
 Adiciona itens ao menu que surge com botão direito do mouse
 ```html
 
