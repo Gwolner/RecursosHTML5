@@ -9,39 +9,39 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 <!DOCTYPE html>
 ```
 
-* Definição de linguagem da página
+* [Definição de linguagem da página](https://caniuse.com/#search=lang)
 ```html
 <html lang="pt-br">
 ```
 
-* Uso de caracteres latinos
+* [Uso de caracteres latinos](https://caniuse.com/#search=meta)
 ```html
 <meta charset="utf-8">
 ```
 
-* Descrição da página
+* [Descrição da página](https://caniuse.com/#search=meta)
 ```html
 <meta name="description" content="A perfeiçoando o HTML 5">
 ```
 
-* Agragando palavras chaves
+* [Agragando palavras chaves](https://caniuse.com/#search=meta)
 ```html
 <meta name="keywords" content="HTML, CSS, PHP">
 ```
 
-* Informando o autor
+* [Informando o autor](https://caniuse.com/#search=meta)
 ```html
 <meta name="author" content="Guilherme Wolner">
 ```
 
-* Recarrega a página a cada n segundos
+* [Recarrega a página a cada n segundos](https://caniuse.com/#search=meta)
 ```html
 <meta http-equiv="refresh" content="10">
 ```
 
 ## 📌Texto
 
-* Deixar um conteúdo de texto editável (atributo contenteditable)
+* [Texto editável](https://caniuse.com/#search=contenteditable) (atributo contenteditable)
 ```html
 <div contenteditable>
   <h1>Título</h1>
@@ -49,7 +49,7 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 </div>
 ```
 
-* Exibir e ocultar detalhes de uma informação (details)
+* [Exibir e ocultar informação](https://caniuse.com/#search=details) (details)
 ```html
 <details>
   <summary>Clique para exibir detalhes</summary>
@@ -66,12 +66,12 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 
 ## 📌Tabelas
 
-* Título da tabela (dentro da tag table)
+* [Título da tabela](https://caniuse.com/#search=caption) (dentro da tag table)
 ```html
 <caption>Cadastro de Clientes</caption>
 ```
 
-* Definindo grupo de colunas
+* [Grupo de colunas](https://caniuse.com/#search=colgroup)
 ```html
 <colgroup>
   <col class="nome">
@@ -80,7 +80,7 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 </colgroup>
 ```
 
-* Definindo sessões na tabela 
+* [Sessões na tabela](https://caniuse.com/#search=thead) AJEITAR AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 ```html
 <thead>
   Para o cabeçalho
@@ -352,7 +352,7 @@ svg rect{
   <rect width="300" height="100" x="50" y="1" />
   Desculpe, seu browser não suporta SVG.  
 </svg>
-
+```
 
 * bordas curvadas
 ```css
