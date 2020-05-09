@@ -271,6 +271,47 @@ Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefo
 
 Adiciona itens ao menu que surge com botão direito do mouse
 ```html
+<div class="elemento" contextmenu="meu-menu" ></div>
+	
+<menu type="context" id="meu-menu">
+  <menuitem>Atualizar</menuitem>
+</menu>
+```
+
+Criando Sub-menu
+```html
+<div class="elemento" contextmenu="meu-menu" ></div>
+
+<menu type="context" id="meu-menu">		
+  <menu label="Siga-nos">
+    <menuitem>Facebook</menuitem>
+    <menuitem>Instagram</menuitem>
+  </menu>		
+</menu>
+```
+
+Adicionando ícone
+```html
+<div class="elemento" contextmenu="meu-menu" ></div>
+	
+<menu type="context" id="meu-menu">
+  <menuitem icon="icones-menu/google.png">Google</menuitem>
+  <menu label="Siga-nos">
+    <menuitem icon="icones-menu/facebook.png">Facebook</menuitem>
+    <menuitem icon="icones-menu/instagram.png">Instagram</menuitem>
+  </menu>		
+</menu>
+```
+
+## Chave pública privada 
+
+Gerando Keygen (Funciona apenas em versões antigas dos navegadores modernos)
+```html
+<keygen name="chave">
+```
+
+
+```html
 
 ```
 
@@ -278,6 +319,51 @@ Adiciona itens ao menu que surge com botão direito do mouse
 ```html
 
 ```
+
+
+
+```html
+
+```
+
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
+
+```html
+
+```
+
+
+
+```html
+
+```
+
+
+```html
+
+```
+
+
+```html
+
+```
+
 
 
 ```html
