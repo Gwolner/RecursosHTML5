@@ -310,91 +310,64 @@ Gerando Keygen (Funciona apenas em versões antigas dos navegadores modernos)
 <keygen name="chave">
 ```
 
+# Gráficos vetoriais (SVG)
 
-```html
+<b>OBS:</b> Deve-se usar o CSS para visualiza-lo
 
+Retângulo
+```css
+svg{
+  background-color:pink;
+}
+    
+svg rect{
+  fill:rgb(0,0,255);
+  stroke-width:3;
+  stroke:rgb(0,0,0);
+}
 ```
 
-
 ```html
-
+<svg width="400" height="110">
+  <rect width="300" height="100" x="50" y="1" />
+  Desculpe, seu browser não suporta SVG.  
+</svg>
 ```
 
-
-
-```html
-
+Retângulo opaco
+```css
+svg{
+  background-color:pink;
+}
+    
+svg rect{
+  fill:rgb(0,0,255);
+  stroke-width:3;
+  stroke:rgb(0,0,0);
+}
 ```
 
-
-
 ```html
+<svg width="400" height="110">
+  <rect width="300" height="100" x="50" y="1" />
+  Desculpe, seu browser não suporta SVG.  
+</svg>
 
+
+bordas curvadas
+```css
+.curvado{ 
+  fill:blue;
+  stroke:black;
+  stroke-width:5;
+}
 ```
 
-
 ```html
-
+<svg width="400" height="180">
+  <rect class="curvado" x="50" y="20" rx="20" ry="20" width="150" height="150" />
+  Desculpe, seu browser não suporta SVG.  
+</svg>
 ```
 
-
-```html
-
-```
-
-
-
-```html
-
-```
-
-
-
-```html
-
-```
-
-
-```html
-
-```
-
-
-```html
-
-```
-
-
-
-```html
-
-```
-
-
-
-```html
-
-```
-
-
-```html
-
-```
-
-
-```html
-
-```
-
-
-
-```html
-
-```
-
-
-
-  
-
-
-
+Para mais construções com SVG clique (aqui)[https://www.w3schools.com/graphics/svg_circle.asp].
