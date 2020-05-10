@@ -1,6 +1,6 @@
 # Recursos HTML5
 
-Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) e uma análise da compatibilidade com os prinipais navegadores usando a ferramenta [Can I Use](https://caniuse.com/)
+Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5). Clicando nos e uma análise da compatibilidade com os prinipais navegadores usando a ferramenta [Can I Use](https://caniuse.com/)
 
 ## 📌Estrutura HTML
 
@@ -226,7 +226,7 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 </hgroup>
 ```
 
-# 📌Gráficos
+## 📌Gráficos
 
 * Definindo barra para representar gráfico (valores mínimo, máximo, baixo, alto e ótimo)
 ```html
@@ -238,7 +238,7 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 <progress max="100" value="30"></progress><br>
 ```
 
-# 📌Falta de suporte ao JS
+## 📌Falta de suporte ao JS
 
 * Aviso de que o JS não está habilitado ou não é compatível com o navegador
 ```html
@@ -246,7 +246,7 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 ```
 
 
-# 📌Recursos externos (dentro do Head e não do Body)
+## 📌Recursos externos (dentro do Head e não do Body)
 
 * Adicionar icone na aba da página
 ```html
@@ -258,14 +258,14 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 <link rel="stylesheet" href="style.css"/>
 ```
 
-# 📌Marcação de tempo
+## 📌Marcação de tempo
 
 * Usado para mecanismos de buscas, não para auxílio visual 
 ```html
 <time datetime="2020-05-05 18:05">05 de Maio de 2020</time>
 ```
 
-# 📌Criação de menu
+## 📌Criação de menu
 
 Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefox tem suporte ao menu de contexto.
 
@@ -310,7 +310,7 @@ Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefo
 <keygen name="chave">
 ```
 
-# 📌Gráficos vetoriais (SVG)
+## 📌Gráficos vetoriais (SVG)
 
 <b>OBS:</b> Deve-se usar o CSS para visualiza-lo
 
