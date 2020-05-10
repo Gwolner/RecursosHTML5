@@ -371,3 +371,19 @@ svg rect{
 ```
 
 Para mais construções com SVG clique [aqui](https://www.w3schools.com/graphics/svg_circle.asp).
+
+## 📌Imagens mapeadas
+
+Atribuir mapeamento de uma forma(quadrado, triangulo, circulo) em uma imagem
+```html
+<img src="universo/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="universo/sun.gif">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="universo/mercur.gif">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="universo/venus.gif">
+</map>
+```
+
+Para mais mapeamentos usando map clique [aqui](https://www.w3schools.com/tags/tag_map.asp).
+
