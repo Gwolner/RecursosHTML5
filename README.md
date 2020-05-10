@@ -1,6 +1,8 @@
 # Recursos HTML5
 
-Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5). Clicando nos e uma análise da compatibilidade com os prinipais navegadores usando a ferramenta [Can I Use](https://caniuse.com/)
+Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5). Alguns tópicos são links para um quadro que analisa a compatibilidade do recurso e os navegadores mais populares.
+
+A análise de compatibilidade com navegadores é feita através da ferramenta web [Can I Use](https://caniuse.com/)
 
 ## 📌Estrutura HTML
 
@@ -80,16 +82,21 @@ Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/
 </colgroup>
 ```
 
-* [Sessões na tabela](https://caniuse.com/#search=thead) AJEITAR AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+* [Sessões na tabela](https://caniuse.com/#search=thead)
+	* teste
 ```html
 <thead>
   Para o cabeçalho
 </thead>
-
+```
+e	* jhj
+```html
 <tbody>
   Para o corpo da tabela
 </tbody>
-
+```
+<i></i>	* [Sessões na tabela](https://caniuse.com/#search=thead)
+```html
 <tfoot>
   Para o rodapé
 </tfoot>
