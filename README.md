@@ -82,30 +82,34 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 </colgroup>
 ```
 
-* [Sessões na tabela](https://caniuse.com/#search=thead)
-	* teste
+* [Sessões na tabela: cabeçalho](https://caniuse.com/#search=thead)
 ```html
 <thead>
   Para o cabeçalho
 </thead>
 ```
-e	* jhj
+
+* [Sessões na tabela: corpo](https://caniuse.com/#search=tbody)
 ```html
 <tbody>
   Para o corpo da tabela
 </tbody>
 ```
-<i></i>	* [Sessões na tabela](https://caniuse.com/#search=thead)
+
+* [Sessões na tabela: cabeçalho](https://caniuse.com/#search=tfoot)
 ```html
 <tfoot>
   Para o rodapé
 </tfoot>
 ```
 
-* Mesclando células
+* [Mesclando células: Linhas](https://caniuse.com/#search=rowspan)
 ```html
 <td rowspan="2">Mescladno linhas</td>
+```
 
+* [Mesclando células: colunas](https://caniuse.com/#search=colspan)
+```html
 <td colspan="3">Mescladno colunas</td>
 ```
 
@@ -129,7 +133,7 @@ e	* jhj
 
 ## 📌Formulário
 
-* Adicinando borda/contorno/legenda a um formulário
+* [Adicinando borda/contorno/legenda a um formulário](https://caniuse.com/#search=fieldset)
 ```html
 <fieldset>
   <legend>Título da legenda</legend>
@@ -149,7 +153,7 @@ e	* jhj
 <input type="color" name="cor"><br>
 ```
 
-* Campos com dados pré-definidos e aceita dados novos 
+* [Campos com dados pré-definidos, mas que aceita dados novos](https://caniuse.com/#search=datalist)
 ```html
 <input name="cursos" list="lista-cursos">
 
@@ -160,7 +164,7 @@ e	* jhj
 </datalist><br>
 ```
 
-* Grupos em caixa de seleção
+* [Grupos em caixa de seleção](https://caniuse.com/#search=optgroup )
 ```html
 <select name="veiculo">
   <optgroup label="Carro">
@@ -185,7 +189,7 @@ e	* jhj
 <input type="text" name="usuario" form="form-cadastro" required>
 ```
 
-* Dois botões em um forma para destinos diferentes
+* [Formulário com destinos diferentes](https://caniuse.com/#search=formaction)
 ```html
 <form id="form-cadastro" method="POST">
   <input type="email" name="email" required autocomplete="on">
@@ -194,7 +198,7 @@ e	* jhj
 </form>
 ```
 
-* Mais de um método de envio (Ex: POST e GET)
+* [Mais de um método de envio (Ex: POST e GET)](https://caniuse.com/#search=formmethod)
 ```html
 <form id="form-cadastro">
   <input type="email" name="email" required autocomplete="on">
@@ -205,14 +209,14 @@ e	* jhj
 
 ## 📌Navegação na página
 
-* Ordem de nvegação com a tecla TAB (Tabindex)
+* [Ordem de nvegação com a tecla TAB (Tabindex)](https://caniuse.com/#search=tabindex)
 ```html
 <a href="https://pt.lipsum.com/" tabindex="3" target="_blank">Lorem Ipsum</a>
 <a href="https://www.google.com/" tabindex="1" target="_blank">Google</a>
 <a href="https://fordev.netlify.app/" tabindex="2" target="_blank">For Dev</a>
 ```
 
-* Definindo tecla de atalho (Accesskey)
+* [Definindo tecla de atalho (Accesskey)](https://caniuse.com/#search=Accesskey)
 <b>OBS:</b> A combinação de atalho muda de um navegador para outro. Para mais informações clique [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/accesskey).
 ```html
 <a href="https://pt.lipsum.com/" tabindex="3" accesskey="l" target="_blank">Lorem Ipsum</a><br>
@@ -220,7 +224,7 @@ e	* jhj
 <a href="https://fordev.netlify.app/" tabindex="2" accesskey="f" target="_blank">For Dev</a><br>
 ```
 
-* Incorporar elemento (arquivo pdf, animação em Flash)
+* [Incorporar elemento (arquivo pdf, animação em Flash)](https://caniuse.com/#search=object)
 ```html
 <object height="450" width="800" data="curso-php.pdf"></object>
 ```
@@ -235,27 +239,26 @@ e	* jhj
 
 ## 📌Gráficos
 
-* Definindo barra para representar gráfico (valores mínimo, máximo, baixo, alto e ótimo)
+* [Definindo barra para representar gráfico](https://caniuse.com/#search=meter) (valores mínimo, máximo, baixo, alto e ótimo)
 ```html
 <meter min="0" low="3" optimum="6" hight="8" max="10" value="7">
 ```
 
-* Barra para representar progresso/download 
+* [Barra para representar progresso/download](https://caniuse.com/#search=progress) 
 ```html
 <progress max="100" value="30"></progress><br>
 ```
 
 ## 📌Falta de suporte ao JS
 
-* Aviso de que o JS não está habilitado ou não é compatível com o navegador
+* [Aviso de que o JS não está habilitado ou não é compatível com o navegador](https://caniuse.com/#search=noscript)
 ```html
 <noscript>Seu navegador não está habilitado para usar Javascript!</noscript>
 ```
 
-
 ## 📌Recursos externos (dentro do Head e não do Body)
 
-* Adicionar icone na aba da página
+* [Adicionar icone na aba da página](https://caniuse.com/#search=link)
 ```html
 <link rel="icon" href="icone_aba.PNG"/>
 ```
@@ -267,7 +270,7 @@ e	* jhj
 
 ## 📌Marcação de tempo
 
-* Usado para mecanismos de buscas, não para auxílio visual 
+* [Usado para mecanismos de buscas, não para auxílio visual ](https://caniuse.com/#search=time)
 ```html
 <time datetime="2020-05-05 18:05">05 de Maio de 2020</time>
 ```
@@ -276,7 +279,7 @@ e	* jhj
 
 Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefox tem suporte ao menu de contexto.
 
-* Adiciona itens ao menu que surge com botão direito do mouse
+* [Adiciona itens ao menu que surge com botão direito do mouse](https://caniuse.com/#search=menuitem)
 ```html
 <div class="elemento" contextmenu="meu-menu" ></div>
 	
@@ -312,12 +315,12 @@ Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefo
 
 ## 📌Chave pública privada 
 
-* Gerando Keygen (Funciona apenas em versões antigas dos navegadores modernos)
+* [Gerando Keygen](https://caniuse.com/#search=keygen) (Funciona apenas em versões antigas dos navegadores modernos)
 ```html
 <keygen name="chave">
 ```
 
-## 📌Gráficos vetoriais (SVG)
+## 📌Gráficos vetoriais [(SVG)](https://caniuse.com/#search=svg)
 
 <b>OBS:</b> Deve-se usar o CSS para visualiza-lo
 
@@ -379,7 +382,7 @@ svg rect{
 
 Para mais construções com SVG clique [aqui](https://www.w3schools.com/graphics/svg_circle.asp).
 
-## 📌Imagens mapeadas
+## 📌Imagens mapeadas [(Map)](https://caniuse.com/#search=map)
 
 Atribuir mapeamento de uma forma(quadrado, triangulo, circulo) em uma imagem
 ```html
@@ -393,4 +396,3 @@ Atribuir mapeamento de uma forma(quadrado, triangulo, circulo) em uma imagem
 ```
 
 Para mais mapeamentos usando map clique [aqui](https://www.w3schools.com/tags/tag_map.asp).
-
