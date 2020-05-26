@@ -1,6 +1,6 @@
 # Recursos HTML5
 
-Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5). Alguns tópicos são links para um quadro que analisa a compatibilidade do recurso e os navegadores mais populares.
+> Listagem de alguns [recursos do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5). Alguns tópicos são links para um quadro que analisa a compatibilidade do recurso e os navegadores mais populares.
 
 A análise de compatibilidade com navegadores é feita através da ferramenta web [Can I Use](https://caniuse.com/)
 
