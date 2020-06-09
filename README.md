@@ -4,7 +4,9 @@
 
 A análise de compatibilidade com navegadores é feita através da ferramenta web [Can I Use](https://caniuse.com/)
 
-## 📌Estrutura HTML
+## Estrutura de códigos
+
+### 📌 Estrutura HTML
 
 * Definição de HTML 5
 ```html
@@ -41,7 +43,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 <meta http-equiv="refresh" content="10">
 ```
 
-## 📌Texto
+### 📌 Texto
 
 * [Texto editável](https://caniuse.com/#search=contenteditable) (atributo contenteditable)
 ```html
@@ -66,7 +68,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 </details>
 ```
 
-## 📌Tabelas
+### 📌 Tabelas
 
 * [Título da tabela](https://caniuse.com/#search=caption) (dentro da tag table)
 ```html
@@ -113,7 +115,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 <td colspan="3">Mescladno colunas</td>
 ```
 
-## 📌Lista
+### 📌 Lista
 
 * Atribuindo sub-listas
 ```html
@@ -131,7 +133,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 </ol>
 ```
 
-## 📌Formulário
+### 📌 Formulário
 
 * [Adicinando borda/contorno/legenda a um formulário](https://caniuse.com/#search=fieldset)
 ```html
@@ -207,7 +209,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 </form>
 ```
 
-## 📌Navegação na página
+### 📌 Navegação na página
 
 * [Ordem de nvegação com a tecla TAB (Tabindex)](https://caniuse.com/#search=tabindex)
 ```html
@@ -237,7 +239,7 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 </hgroup>
 ```
 
-## 📌Gráficos
+### 📌 Gráficos
 
 * [Definindo barra para representar gráfico](https://caniuse.com/#search=meter) (valores mínimo, máximo, baixo, alto e ótimo)
 ```html
@@ -249,14 +251,14 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 <progress max="100" value="30"></progress><br>
 ```
 
-## 📌Falta de suporte ao JS
+### 📌 Falta de suporte ao JS
 
 * [Aviso de que o JS não está habilitado ou não é compatível com o navegador](https://caniuse.com/#search=noscript)
 ```html
 <noscript>Seu navegador não está habilitado para usar Javascript!</noscript>
 ```
 
-## 📌Recursos externos (dentro do Head e não do Body)
+### 📌 Recursos externos (dentro do Head e não do Body)
 
 * [Adicionar icone na aba da página](https://caniuse.com/#search=link)
 ```html
@@ -268,14 +270,14 @@ A análise de compatibilidade com navegadores é feita através da ferramenta we
 <link rel="stylesheet" href="style.css"/>
 ```
 
-## 📌Marcação de tempo
+### 📌 Marcação de tempo
 
 * [Usado para mecanismos de buscas, não para auxílio visual ](https://caniuse.com/#search=time)
 ```html
 <time datetime="2020-05-05 18:05">05 de Maio de 2020</time>
 ```
 
-## 📌Criação de menu
+### 📌 Criação de menu
 
 Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefox tem suporte ao menu de contexto.
 
@@ -313,14 +315,14 @@ Menu de contexto, barra de ferramentas ou menu pop-up. Sendo que apenas o Firefo
 </menu>
 ```
 
-## 📌Chave pública privada 
+### 📌 Chave pública privada 
 
 * [Gerando Keygen](https://caniuse.com/#search=keygen) (Funciona apenas em versões antigas dos navegadores modernos)
 ```html
 <keygen name="chave">
 ```
 
-## 📌Gráficos vetoriais [(SVG)](https://caniuse.com/#search=svg)
+### 📌 Gráficos vetoriais [(SVG)](https://caniuse.com/#search=svg)
 
 <b>OBS:</b> Deve-se usar o CSS para visualiza-lo
 
@@ -382,7 +384,7 @@ svg rect{
 
 Para mais construções com SVG clique [aqui](https://www.w3schools.com/graphics/svg_circle.asp).
 
-## 📌Imagens mapeadas [(Map)](https://caniuse.com/#search=map)
+### 📌 Imagens mapeadas [(Map)](https://caniuse.com/#search=map)
 
 Atribuir mapeamento de uma forma(quadrado, triangulo, circulo) em uma imagem
 ```html
